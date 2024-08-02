@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lottie_tutorial/lottie_controller.dart';
+import 'package:lottie_tutorial/like_animation.dart';
 
 void main() => runApp(const MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      home: LottieController(),
+      home: LikeAnimation(),
     );
   }
 }
