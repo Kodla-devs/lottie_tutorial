@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lottie_tutorial/splash_screen_animation.dart';
+import 'package:lottie_tutorial/svg_to_lottie.dart';
 
 void main() => runApp(const MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      home: SplashScreenAnimation(),
+      home: SvgToLottie(),
     );
   }
 }
